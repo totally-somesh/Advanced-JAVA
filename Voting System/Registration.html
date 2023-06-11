@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Registration Form</title>
-</head>
-<body align="center">
-<form action="Register" method="post">
-<table>
-<tbody>
-<!-- first_name , last_name , email, password , dob -->
-<tr>
-<td>First Name</td>
-<td><input type="text" id="fnm" name="fnm"></input></td>
-</tr>
-<tr>
-<td>Last Name</td>
-<td><input type="text" id="lnm" name="lnm"></input></td>
-</tr>
-<tr>
-<td>Email</td>
-<td><input type="text" id="em" name="em"></input></td>
-</tr>
-<tr>
-<td>Password</td>
-<td><input type="password" id="pass" name="pass"></input></td>
-</tr>
-<tr>
-<td>Date of Birth</td>
-<td><input type="date" id="dt" name="dt"></input></td>
-</tr>
-<tr>
-<td>Role</td>
-<td><input type="text" id="rl" name="rl"></input></td>
-</tr>
-</tbody>
-</table>
-<button type="submit" id=b1 name=B1 value=register>Register Me</button>
-</form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="registration" method="post" >
+    
+    	
+      <table style="background-color: lightgrey; margin: auto">
+        
+        <tr>
+          <td><h4>Please Enter Following Details :-</h4></td>
+        </tr>
+        
+        <tr>
+          <td>First Name : </td>
+          <td><input type="text" name="fname" /></td>
+        </tr>
+        
+        <tr>
+          <td>Last Name : </td>
+          <td><input type="text" name="lname" /></td>
+        </tr>
+        
+        <tr>
+          <td>Email ID : </td>
+          <td><input type="text" name="email" /></td>
+        </tr>
+        
+        <tr>
+          <td>Password : </td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        
+        <tr>
+          <td>Date Of Birth : </td>
+          <td><input type="date" name="date" /></td>
+        </tr>
+        
+        <tr>
+          <td>Role : </td>
+          <td><input type="text" name="role" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Register Me" /></td>
+        </tr>
+        
+        <tr>
+        </tr>
+              
+      </table>
+      
+    </form>
+  </body>
 </html>
